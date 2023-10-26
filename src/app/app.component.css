@@ -1,0 +1,40 @@
+.intro-bg-color {
+  background-image: linear-gradient(to right, #392d69, #b57bee);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.projects-bg-color {
+  background-image: linear-gradient(to right, #f7ba2c, #ea5459);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.chirp-bg-color {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.task-bg-color {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.contact-bg-color {
+  background-image: linear-gradient(to right, #43C6AC, #191654);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+  .intro-bg-color {
+    height: 110vh;
+  }
+}

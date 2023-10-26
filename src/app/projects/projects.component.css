@@ -1,0 +1,59 @@
+.card {
+  border: none;
+  background-color: orange;
+  transition: all 0.15s;
+}
+
+.card:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.card-body{
+  background-color: #ea5459;
+  color: white;
+  transition: all 0.15s;
+}
+.card-body:hover {
+  background-color: #212529;
+}
+
+.weather-app img {
+  height: 306px;
+}
+
+.resume-website img {
+  height: 307px;
+}
+
+.tindog {
+  height: 258px;
+}
+
+.view-btn {
+  background-color: orange;
+  color: white;
+  transition: all 0.15s;
+}
+.view-btn:hover {
+  background-color: orangered;
+}
+
+.contact-btn {
+  font-size: 30px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #43C6AC, #191654);
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: none;
+  margin-left: 100px;
+}
+.contact-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+  .contact-btn {
+    margin-left: 75px;
+  }
+}

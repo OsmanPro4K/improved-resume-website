@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'improved-resume-website'`, () => {
+  it(`should have as title 'resume-website'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('improved-resume-website');
+    expect(app.title).toEqual('resume-website');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('improved-resume-website app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('resume-website app is running!');
   });
 });

@@ -1,0 +1,200 @@
+.main {
+  width: 1100px;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  color: #1d9bf0;
+}
+
+.sign-in-btn {
+  background-color: #1d9bf0;
+  color: white;
+
+  padding: 12px 20px;
+}
+/* Section 1 */
+#section-1 .left {
+  float: left;
+}
+#section-1 .left .btn {
+  margin-right: 0px;
+}
+#section-1 .right {
+  float: right;
+}
+#section-1 .right img {
+  width: 375px;
+}
+
+.title {
+  font-size: 50px;
+}
+.description {
+  text-align: justify;
+  color: gray;
+}
+.learn-link {
+  text-decoration: none;
+}
+.learn-link:hover {
+  text-decoration: underline;
+}
+/* User Images */
+.user-avatar {
+  position: absolute;
+}
+@media (max-width: 600px) {
+    .main {
+        width: auto;
+    }
+    #section-1 .title {
+        font-size: 30px;
+    }
+    #section-1 .description {
+        width: 300px;
+    }
+    #section-1 .right {
+        display: block;
+        float: none;
+        width: 300px;
+    }
+    #section-1 .right img {
+        display: inline;
+        width: 300px;
+        margin-left: 50px;
+    }
+}
+/* Section 2 */
+@media (max-width: 600px) {
+    #section-2 {
+        width: auto;
+    }
+    #section-2 h2 {
+        text-align: center;
+    }
+    .card {
+        width: 275px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* Section 3 */
+#section-3 {
+  background-color: rgb(215, 245, 255);
+  border-radius: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info img {
+  width: 60px; /* Adjust as needed */
+  height: 60px; /* Adjust as needed */
+  border-radius: 50%;
+  margin-right: 15px; /* Adjust as needed */
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.username {
+  color: gray;
+  margin: 0;
+}
+.twitter-icon {
+    color: #1d9bf0;
+}
+.heart {
+    color: red;
+}
+.card-1 .date {
+    margin-left: 110px;
+}
+.card-2 .date {
+    margin-left: 100px;
+}
+.card-3 .date {
+    margin-left: 90px;
+}
+
+#section-3 .card {
+    float: left;
+}
+#section-3 .card-text {
+    color: grey;
+}
+
+@media (max-width: 600px) {
+    #section-3 {
+        display: inline-block;
+        width: auto;
+    }
+    #secton-3 .card-1 .date {
+        margin-left: 110px;
+    }
+    #secton-3 .card-2 .date {
+        margin-left: 100px;
+    }
+    #secton-3 .card-3 .date {
+        margin-left: 90px;
+    }
+}
+/* Section 4 */
+#section-4 {
+  margin-top: 50px;
+}
+.sect-4-title {
+  color: black;
+}
+#section-4 .number {
+  font-size: 50px;
+  color: black;
+}
+#section-4 .card {
+  background-color: rgb(255, 241, 230);
+  border: solid orange 1px;
+  color: gray;
+  text-align: left;
+}
+#section-4 .card-text {
+  margin-left: 30px;
+}
+#section-4 .sign-in-btn {
+  font-weight: bold;
+  padding: 10px 98px;
+  margin-left: 2px;
+
+  cursor: pointer;
+  transition: all 0.15s;
+}
+#section-4 .sign-in-btn:hover {
+  background-color: #1d9bf0;
+  color: white;
+  opacity: 0.7;
+}
+@media (max-width: 600px) {
+  #section-4 .sign-in-btn {
+    padding: 10px 48px;
+  }
+  hr {
+    width: auto;
+  }
+}
+/* Footer */
+footer .navbar {
+  background-color: rgb(144, 227, 255);
+  border-radius: 20px;
+}
+footer .nav-link {
+  color: black;
+}

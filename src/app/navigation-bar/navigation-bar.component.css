@@ -1,0 +1,27 @@
+.nav {
+  background-color: #212529;
+  border: none;
+}
+.nav-tabs a {
+  color: white;
+}
+.intro .active {
+  font-weight: bold;
+  background-image: linear-gradient(to right, #9c6bd3, #a672de);
+  border-image: linear-gradient(to right, #9c6bd3, #a672de);
+  color: white;
+}
+
+.projects .active {
+  font-weight: bold;
+  background-image: linear-gradient(to right, #EC6452, #EB5C55);
+  border-image: linear-gradient(to right, #EC6452, #EB5C55);
+  color: white;
+}
+
+.contact .active {
+  font-weight: bold;
+  background-image: linear-gradient(to right, #1C2059, #191654);
+  border-image: linear-gradient(to right, #1C2059, #191654);
+  color: white;
+}
